@@ -1,5 +1,5 @@
-## Recommendation of Doctors Based on Role Sentiment Analysis for Satisfaction Assessment
-The official implementation of the paper "Recommendation of Doctors Based on Role Sentiment Analysis for Satisfaction Assessment".
+## Self-supervised Physician Attribute Representation Fusion for Medical Recommendation
+The official implementation of the paper "Self-supervised Physician Attribute Representation Fusion for Medical Recommendation".
 
 ## Dataset
 The data used in this paper is derived from the publicly available doctor recommendation dataset by [Lu et al](https://github.com/polyusmart/Doctor-Recommendation). The dataset covers 359 doctors in 14 departments and contains over 110,000 conversation records. To ensure the accuracy and validity of the data, we exclude conversation records that do not provide information about the patient's gender and age.
