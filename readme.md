@@ -10,8 +10,8 @@ The data used in this paper is derived from the publicly available doctor recomm
 ## Dependencies and Installation
 We recommend using `Python>=3.8`, `PyTorch>=2.0.0`, and `CUDA>=11.8`.
 ```bash
-conda create --name rssa python=3.8
-conda activate rssa
+conda create --name SPARF-MRec python=3.8
+conda activate SPARF-MRec
 pip install -U pip
 
 # Install requirements
