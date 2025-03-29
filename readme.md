@@ -1,5 +1,5 @@
-## Self-supervised Physician Attribute Representation Fusion for Medical Recommendation
-The official implementation of the paper "Self-supervised Physician Attribute Representation Fusion for Medical Recommendation".
+## Self-supervised fusion of clinical expertise and interpersonal skills for enhanced physician recommendation
+The official implementation of the paper "Self-supervised fusion of clinical expertise and interpersonal skills for enhanced physician recommendation".
 
 ## Dataset
 The data used in this paper is derived from the publicly available doctor recommendation dataset by [Lu et al](https://github.com/polyusmart/Doctor-Recommendation). The dataset covers 359 doctors in 14 departments and contains over 110,000 conversation records. To ensure the accuracy and validity of the data, we exclude conversation records that do not provide information about the patient's gender and age.
@@ -10,8 +10,8 @@ The data used in this paper is derived from the publicly available doctor recomm
 ## Dependencies and Installation
 We recommend using `Python>=3.8`, `PyTorch>=2.0.0`, and `CUDA>=11.8`.
 ```bash
-conda create --name SPARF-MRec python=3.8
-conda activate SPARF-MRec
+conda create --name SF-CEisEPR python=3.8
+conda activate SF-CEisEPR
 pip install -U pip
 
 # Install requirements
